@@ -1,0 +1,37 @@
+{
+    "name": "socar-inc/php-card-bin-parser",
+    "description": "Korean credit card BIN parser",
+    "keywords": [
+        "credit card",
+        "BIN",
+        "korean",
+        "finance",
+        "php"
+    ],
+    "homepage": "https://github.com/socar-inc/php-card-bin-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "YeoungGwon Jeong",
+            "email": "seira@socar.kr",
+            "homepage": "http://socar.kr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SOCAR\\PHPCardBIN\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SOCAR\\PHPCardBIN\\Test\\": "tests"
+        }
+    }
+}
